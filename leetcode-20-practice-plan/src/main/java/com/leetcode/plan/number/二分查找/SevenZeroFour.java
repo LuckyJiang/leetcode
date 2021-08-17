@@ -24,7 +24,7 @@ public class SevenZeroFour implements Number {
 
     }
 
-    //二分查找法：
+    //二分查找法：  标准二分查找
     public int search(int[] nums, int target) {
         if(nums.length == 0)
             return  -1;

@@ -44,7 +44,7 @@ public class TwoSevenEight implements Number {
         int left = 1;
         int right = n;
         int middle;
-        while ( left < right ){                // 第一点：当有多个值，并返回第一个的下标时，循环条件要变一下；
+        while ( left < right ){                   // 第一点：当有多个值，并返回第一个的下标时，循环条件要变一下；
             middle = left + (right -left)/2;      // 第二点： 超出边界限制
             // middle = left + (right -left)>>1;   // 第三点： 位的运算 比简单的“/”用时要多
             boolean  flag = isBadVersion(middle);
