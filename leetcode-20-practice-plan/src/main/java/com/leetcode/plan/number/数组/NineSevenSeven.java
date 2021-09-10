@@ -1,4 +1,4 @@
-package com.leetcode.plan.number;
+package com.leetcode.plan.number.数组;
 
 /**
  * @author jxm
@@ -8,7 +8,7 @@ package com.leetcode.plan.number;
 public class NineSevenSeven {
 
     /**
-     * @题号：977
+     * @题号：977 有序数组的平方
      *
      *
      * @描述：
